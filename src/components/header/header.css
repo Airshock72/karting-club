@@ -1,4 +1,4 @@
-img {
+.title-logo {
     border-radius: 50%;
     filter: invert(0);
 }
@@ -19,6 +19,13 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 10px 10%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999999;
+    background-color: rgba(201, 76, 76, 0.3);
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
 }
 
 .navlinks {

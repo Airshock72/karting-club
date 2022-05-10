@@ -5,7 +5,15 @@ import Logo from '../../images/130980302_1534335080101258_2878631675978030243_n.
 const Header = () => {
   return (
     <header>
-      <img src={Logo} alt="title logo" width="100" height="100" />
+      <a href="#">
+        <img
+          src={Logo}
+          alt="title logo"
+          width="100"
+          height="100"
+          className="title-logo"
+        />
+      </a>
       <nav>
         <ul className="navlinks">
           <li>

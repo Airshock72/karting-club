@@ -1,14 +1,22 @@
 import './App.css';
 import Header from './components/header/header';
+import { BrowserRouter as Router, useRoutes } from 'react-router-dom';
+import Homepage from './components/homepage/homepage';
 
-function App() {
+const App = () => {
+  let routes = useRoutes([{ path: '', element: <Homepage /> }]);
+  return routes;
+};
+
+const AppWrapper = () => {
   return (
-    <div>
-      <header className="App-header">
+    <Router>
+      <div>
         <Header />
-      </header>
-    </div>
+        <App />
+      </div>
+    </Router>
   );
-}
+};
 
-export default App;
+export default AppWrapper;
