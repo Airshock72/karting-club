@@ -23,7 +23,7 @@ header {
     top: 0;
     left: 0;
     z-index: 9999999;
-    background-color: rgba(201, 76, 76, 0.3);
+    background-color: rgba(146, 146, 146, 0.459);
     border-bottom-right-radius: 20px;
     border-bottom-left-radius: 20px;
 }
