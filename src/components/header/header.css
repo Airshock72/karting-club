@@ -3,14 +3,22 @@
     filter: invert(0);
 }
 
-li,
-a,
-button {
+.navlinks li,
+.navlinks button,
+.navlinks a {
     font-family: 'Montserrat', sans-serif;
     font-weight: 500;
     font-size: 16px;
     color: #edf0f1;
     text-decoration: none;
+    cursor: pointer;
+    border: none;
+    background-color: inherit;
+}
+
+.logo {
+    border-radius: 50%;
+    cursor: pointer;
 }
 
 header {
@@ -37,10 +45,10 @@ header {
     padding: 0px 20px;
 }
 
-.navlinks li a {
+.navlinks li button, .navlinks li a {
     transition: all 0.3s ease 0s;
 }
 
-.navlinks li a:hover {
+.navlinks li button:hover, .navlinks li a:hover {
     color: rgb(212, 76, 76);
 }

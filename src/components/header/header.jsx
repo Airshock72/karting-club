@@ -1,11 +1,13 @@
 import React from 'react';
 import './header.css';
 import Logo from '../../images/130980302_1534335080101258_2878631675978030243_n.jpg';
+import { useNavigate } from 'react-router-dom';
 
 const Header = () => {
+  const navigate = useNavigate();
   return (
     <header>
-      <a href="#">
+      <button className="logo" onClick={() => navigate('/')}>
         <img
           src={Logo}
           alt="title logo"
@@ -13,7 +15,7 @@ const Header = () => {
           height="100"
           className="title-logo"
         />
-      </a>
+      </button>
       <nav>
         <ul className="navlinks">
           <li>
@@ -26,10 +28,10 @@ const Header = () => {
             </a>
           </li>
           <li>
-            <a href="#">About</a>
+            <button onClick={() => navigate('/about')}>About</button>
           </li>
           <li>
-            <a href="#">Location</a>
+            <button onClick={() => navigate('/location')}>Location</button>
           </li>
         </ul>
       </nav>
