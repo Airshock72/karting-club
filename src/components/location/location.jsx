@@ -7,7 +7,8 @@ const Location = () => {
       <div className="container">
         <div className="row">
           <div className="col">
-            <h1>თბილისი, ჩაჩავას ქუჩა #8</h1>
+            <h1>Astra Park</h1>
+            <h3>თბილისი, ჩაჩავას ქუჩა #8</h3>
             <div className="mapouter">
               <div className="gmap_canvas">
                 <iframe
@@ -26,7 +27,8 @@ const Location = () => {
             </div>
           </div>
           <div className="col">
-            <h2>თბილისი, ბერიტაშვილის ქუჩა, ლისის ტბის მიმდებარედ</h2>
+            <h1>Lisi Lemans</h1>
+            <h3>თბილისი, ბერიტაშვილის ქუჩა, ლისის ტბის მიმდებარედ</h3>
             <div className="mapouter">
               <div className="gmap_canvas">
                 <iframe
@@ -47,8 +49,8 @@ const Location = () => {
         </div>
         <div className="row">
           <div className="col col3">
-            <h2>ქვემო ქართლი, რუსთავი, წითელი ხიდის გზატკეცილი 21 კმ</h2>
-            <p>(რუსთავის საერთაშორისო კარტოდრომი)</p>
+            <h1>Rustavi International Motorpark</h1>
+            <h3>ქვემო ქართლი, რუსთავი, რუსთავის საერთაშორისო კარტოდრომი</h3>
             <div className="mapouter">
               <div className="gmap_canvas">
                 <iframe
@@ -67,7 +69,8 @@ const Location = () => {
             </div>
           </div>
           <div className="col">
-            <h1>ბათუმი, ახალი ბულვარი (6010)</h1>
+            <h1>Batumi Karting</h1>
+            <h3>ბათუმი, ახალი ბულვარი (6010)</h3>
             <div className="mapouter">
               <div className="gmap_canvas">
                 <iframe
