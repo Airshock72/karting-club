@@ -11,9 +11,9 @@ const About = () => {
             კეთილი იყოს თქვენი მობრძანება Karting-Club Georgia-ს ოფიციალურ
             ვებ-გვერდზე. ჩვენგან შეიტყობთ, კონკრეტულად საქართველოს მასშტაბით,
             კარტოდრომების ადგილმდებარეობებს, სკოლას და ზოგადად კარტინგის შესახებ
-            დეტალურ ინფორმაციას. მოგაწვდით დეტალურ ინფორმაციას, გალერეას და
-            ტურნირების (ჩემპიონატების) განრიგებს. Welcome to Karting Club
-            Georgia official webSite for more questions contact down below.
+            დეტალურ ინფორმაციას. მოგაწვდით ინფორმაციას, გალერეას და ტურნირების
+            (ჩემპიონატების) განრიგებს. Welcome to Karting Club Georgia official
+            webSite for more questions contact down below.
           </p>
         </div>
       </div>

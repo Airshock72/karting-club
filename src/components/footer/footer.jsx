@@ -21,7 +21,9 @@ const Footer = () => {
       <div className="footer-left">
         <div className="footer-contacts">
           <h3>Irakli Khidesheli (Teacher)</h3>
-          <p>Tel: +995 593 66 42 33</p>
+          <p>
+            Tel: +995 593 66 42 33 &nbsp; &nbsp; WhatsApp: +995 593 66 42 33
+          </p>
 
           <h3>Saba Gorelishvili (Teacher's Assistant) </h3>
           <p>
