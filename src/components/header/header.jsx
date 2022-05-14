@@ -7,7 +7,7 @@ const Header = () => {
   const navigate = useNavigate();
   return (
     <header>
-      <button className="logo" onClick={() => navigate('/')}>
+      <button className="logo" onClick={() => navigate('/karting-club')}>
         <img
           src={Logo}
           alt="title logo"

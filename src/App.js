@@ -8,7 +8,7 @@ import Location from './components/location/location';
 
 const App = () => {
   let routes = useRoutes([
-    { path: '', element: <Homepage /> },
+    { path: '/karting-club', element: <Homepage /> },
     { path: '/about', element: <About /> },
     { path: '/location', element: <Location /> },
   ]);
