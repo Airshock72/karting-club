@@ -52,3 +52,11 @@ header {
 .navlinks li button:hover, .navlinks li a:hover {
     color: rgb(212, 76, 76);
 }
+
+.karting-websites {
+    margin-left: 75px;
+}
+
+.karting-websites a {
+font-size: 14px;
+}

@@ -33,6 +33,31 @@ const Header = () => {
           <li>
             <button onClick={() => navigate('/location')}>Location</button>
           </li>
+          <span className="karting-websites">
+            <li>
+              <a
+                href="https://www.rotax.com/en/start.html"
+                target="_blank"
+                rel="noreferrer"
+              >
+                ROTAX
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://www.tonykart.com/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                TONY KART
+              </a>
+            </li>
+            <li>
+              <a href="https://kartcrg.com/" target="_blank" rel="noreferrer">
+                CRG
+              </a>
+            </li>
+          </span>
         </ul>
       </nav>
       {/* <div> ეს უნდა იყოს footer-ში
