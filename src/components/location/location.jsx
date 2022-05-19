@@ -50,7 +50,7 @@ const Location = () => {
         <div className="row">
           <div className="col col3">
             <h1>Rustavi International Motorpark</h1>
-            <h3>ქვემო ქართლი, რუსთავი, რუსთავის საერთაშორისო კარტოდრომი</h3>
+            <h3>ქვემო ქართლი რუსთავი რუსთავის საერთაშორისო კარტოდრომი</h3>
             <div className="mapouter">
               <div className="gmap_canvas">
                 <iframe
