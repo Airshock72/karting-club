@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/karting-club/static/css/main.714437cd.css",
-    "main.js": "/karting-club/static/js/main.27329c2e.js",
+    "main.js": "/karting-club/static/js/main.726a3c4f.js",
     "static/media/1.jpg": "/karting-club/static/media/1.6b547ea237064e351c19.jpg",
     "static/media/2.jpg": "/karting-club/static/media/2.68183f028f404d37bfdc.jpg",
     "static/media/130980302___n.jpg": "/karting-club/static/media/130980302_1534335080101258_2878631675978030243_n.59018b30a5af85d40e8e.jpg",
     "static/media/3.jpg": "/karting-club/static/media/3.ea07f8c06e7bd62bf1da.jpg",
     "index.html": "/karting-club/index.html",
     "main.714437cd.css.map": "/karting-club/static/css/main.714437cd.css.map",
-    "main.27329c2e.js.map": "/karting-club/static/js/main.27329c2e.js.map"
+    "main.726a3c4f.js.map": "/karting-club/static/js/main.726a3c4f.js.map"
   },
   "entrypoints": [
     "static/css/main.714437cd.css",
-    "static/js/main.27329c2e.js"
+    "static/js/main.726a3c4f.js"
   ]
 }
